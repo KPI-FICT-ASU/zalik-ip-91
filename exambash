@@ -1,0 +1,7 @@
+#! /bin/bash
+
+ls > myfile
+grep -F -f myfile $1 > file3
+
+diff -d file3 myfile > filef
+cat filef
