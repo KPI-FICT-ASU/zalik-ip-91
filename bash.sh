@@ -1,2 +1,2 @@
 #!/bin/bash
-ls >> names.txt
+ls > names.txt
